@@ -1,0 +1,11 @@
+.founder-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @media (min-width: 375px) {
+    flex-direction: row;
+  }
+}

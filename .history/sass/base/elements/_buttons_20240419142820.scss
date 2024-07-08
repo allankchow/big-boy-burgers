@@ -1,0 +1,50 @@
+// button,
+// input[type="button"],
+// input[type="reset"],
+// input[type="submit"] {
+// 	border: 1px solid;
+// 	border-color: $color__border-button;
+// 	border-radius: 3px;
+// 	background: $color__background-button;
+// 	color: rgba(0, 0, 0, 0.8);
+// 	line-height: 1;
+// 	padding: 0.6em 1em 0.4em;
+
+// 	&:hover {
+// 		border-color: $color__border-button-hover;
+// 	}
+
+// 	&:active,
+// 	&:focus {
+// 		border-color: $color__border-button-focus;
+// 	}
+// }
+
+.btn-primary {
+  border-radius: 8px;
+  background: #fd4839;
+  display: flex;
+  width: fit-content;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: none;
+
+  &::selection {
+    background: none;
+    color: #fff;
+  }
+
+  &:active,
+  &:hover {
+    background: #ff6e5a;
+    color: #fff;
+  }
+}

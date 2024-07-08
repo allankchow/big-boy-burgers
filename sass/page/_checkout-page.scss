@@ -1,0 +1,14 @@
+#post-23 {
+    width: 100%;
+    margin: 100px auto !important;
+
+    .wc-block-checkout__actions_row {
+        align-items: center;
+        
+
+        .wc-block-components-checkout-return-to-cart-button {
+            color: $secondary-blue;
+        }
+
+    }
+}

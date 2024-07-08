@@ -1,0 +1,53 @@
+.category-article .image-container.burgers img,                             // Menu page product images
+.product.product_cat-burgers .woocommerce-loop-product__link img,           // Items page product images
+.product.product_cat-burgers .woocommerce-product-gallery__image img {      // Single product page main image
+    background-color: $secondary-yellow;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.category-article .image-container.sides img,                       
+.product.product_cat-sides .woocommerce-loop-product__link img,
+.product.product_cat-sides .woocommerce-product-gallery__image img {
+    background-color: $purple-300;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.category-article .image-container.drinks img,
+.product.product_cat-drinks .woocommerce-loop-product__link img,
+.product.product_cat-drinks .woocommerce-product-gallery__image img {
+    background-color: $aqua-300;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.category-article .image-container.desserts img,
+.product.product_cat-desserts .woocommerce-loop-product__link img,
+.product.product_cat-desserts .woocommerce-product-gallery__image img {
+    background-color: $melanin-300;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.category-article .image-container.gift-cards img,
+.product.product_cat-gift-cards .woocommerce-loop-product__link img,
+.product.product_cat-gift-cards .woocommerce-product-gallery__image img {
+    background-color: $green-300;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+.category-article .image-container.merch img,
+.product.product_cat-merch .woocommerce-loop-product__link img,
+.product.product_cat-merch .woocommerce-product-gallery__image img {
+    background-color: $secondary-yellow;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 1rem;
+}

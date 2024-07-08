@@ -1,0 +1,45 @@
+.home-banner {
+  background-color: $secondary-yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50vh;
+  position: relative;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 24px 0;
+
+    @media (min-width: 640px) {
+      flex-direction: row-reverse;
+      gap: 80px;
+    }
+
+    .banner-home-content {
+      width: 50%;
+      text-align: left;
+
+      a {
+        display: none;
+        @media (min-width: 640px) {
+          display: inline-block;
+        }
+      }
+    }
+    .banner-home-image {
+      width: 50%;
+    }
+
+    .banner-button {
+      display: inline-block;
+
+      @media (min-width: 640px) {
+        display: none;
+      }
+    }
+  }
+}

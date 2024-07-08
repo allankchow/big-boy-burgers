@@ -1,0 +1,11 @@
+.small-top-banner {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  background-color: $melanin-300;
+  border-bottom: 1px solid $tertiary-green;
+
+  p {
+    font-weight: 600;
+    color: white;
+  }
+}

@@ -1,0 +1,61 @@
+#post-22,
+#post-23 {
+    .wc-block-cart__submit-button{
+        margin: 2rem auto 0;
+    }
+
+    .wc-block-cart__submit-button,
+    .wc-block-components-checkout-place-order-button {
+        border-radius: 8px;
+        background: #fd4839;
+        display: flex;
+        width: fit-content;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+
+        outline: none;
+        border: none;
+
+        color: #fff !important;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        text-decoration: none;
+    }
+
+    .wc-block-components-totals-coupon__button,
+    .wc-block-components-shipping-calculator-address__button,
+    .add_to_cart_button {
+        border-radius: 8px;
+        background: #fd4839;
+        color: #fff !important;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+
+        outline: none;
+        border: none;
+    }
+
+    .wc-block-cart__submit-button,
+    .wc-block-components-checkout-place-order-button,
+    .wc-block-components-totals-coupon__button,
+    .wc-block-components-shipping-calculator-address__button,
+    .add_to_cart_button {
+        
+        &::selection {
+            background: none;
+            color: #fff;
+        }
+
+        &:active,
+        &:hover {
+            background: #ff6e5a;
+            color: #fff;
+        }
+    }
+}

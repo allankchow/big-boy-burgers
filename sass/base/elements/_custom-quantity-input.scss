@@ -1,0 +1,10 @@
+.custom-qty-input::-webkit-outer-spin-button,
+.custom-qty-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.custom-qty-input {
+  -moz-appearance: textfield;
+}

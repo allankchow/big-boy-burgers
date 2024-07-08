@@ -1,0 +1,222 @@
+.site-header.top-navigation {
+  padding: 12px 0;
+  border-bottom: 1px solid #000000;
+  background: white;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .site-branding {
+      max-width: 75px;
+    }
+
+    .main-navigation {
+      .menu-toggle {
+        margin-left: auto;
+      }
+      .menu-main-navigation-container {
+        .menu.nav-menu {
+          justify-content: flex-end;
+          gap: 32px;
+
+          color: #000;
+          font-family: Montserrat;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 142.857% */
+          text-transform: uppercase;
+
+          li > a {
+            color: inherit;
+            text-decoration: none;
+          }
+
+          li {
+            ul.sub-menu {
+              --wp-admin-theme-color: #007cba;
+              --wp-admin-theme-color--rgb: 0, 124, 186;
+              --wp-admin-theme-color-darker-10: #006ba1;
+              --wp-admin-theme-color-darker-10--rgb: 0, 107, 161;
+              --wp-admin-theme-color-darker-20: #005a87;
+              --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+              --wp-block-synced-color: #7a00df;
+              --wp-block-synced-color--rgb: 122, 0, 223;
+              --wp-bound-block-color: #9747ff;
+              --wp-admin-border-width-focus: 1.5px;
+              --wp--preset--font-size--normal: 16px;
+              --wp--preset--font-size--huge: 42px;
+              --wp--preset--color--black: #000000;
+              --wp--preset--color--cyan-bluish-gray: #abb8c3;
+              --wp--preset--color--white: #ffffff;
+              --wp--preset--color--pale-pink: #f78da7;
+              --wp--preset--color--vivid-red: #cf2e2e;
+              --wp--preset--color--luminous-vivid-orange: #ff6900;
+              --wp--preset--color--luminous-vivid-amber: #fcb900;
+              --wp--preset--color--light-green-cyan: #7bdcb5;
+              --wp--preset--color--vivid-green-cyan: #00d084;
+              --wp--preset--color--pale-cyan-blue: #8ed1fc;
+              --wp--preset--color--vivid-cyan-blue: #0693e3;
+              --wp--preset--color--vivid-purple: #9b51e0;
+              --wp--preset--color--crispy-yellow: #ffe28c;
+              --wp--preset--color--fried-yellow: #fdda72;
+              --wp--preset--color--beast-blue: #75d9fc;
+              --wp--preset--color--aqua: #a7ebe2;
+              --wp--preset--color--ketchup-red: #e43d4c;
+              --wp--preset--color--pink-sauce: #ff9ebc;
+              --wp--preset--color--pink-mayo: #ffd6d8;
+              --wp--preset--color--gray: #bbbcbc;
+              --wp--preset--color--success: #b3f4d1;
+              --wp--preset--color--warning: #fdda72;
+              --wp--preset--color--error: #ff9ebc;
+              --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+                135deg,
+                rgba(6, 147, 227, 1) 0%,
+                rgb(155, 81, 224) 100%
+              );
+              --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+                135deg,
+                rgb(122, 220, 180) 0%,
+                rgb(0, 208, 130) 100%
+              );
+              --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+                135deg,
+                rgba(252, 185, 0, 1) 0%,
+                rgba(255, 105, 0, 1) 100%
+              );
+              --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+                135deg,
+                rgba(255, 105, 0, 1) 0%,
+                rgb(207, 46, 46) 100%
+              );
+              --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+                135deg,
+                rgb(238, 238, 238) 0%,
+                rgb(169, 184, 195) 100%
+              );
+              --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+                135deg,
+                rgb(74, 234, 220) 0%,
+                rgb(151, 120, 209) 20%,
+                rgb(207, 42, 186) 40%,
+                rgb(238, 44, 130) 60%,
+                rgb(251, 105, 98) 80%,
+                rgb(254, 248, 76) 100%
+              );
+              --wp--preset--gradient--blush-light-purple: linear-gradient(
+                135deg,
+                rgb(255, 206, 236) 0%,
+                rgb(152, 150, 240) 100%
+              );
+              --wp--preset--gradient--blush-bordeaux: linear-gradient(
+                135deg,
+                rgb(254, 205, 165) 0%,
+                rgb(254, 45, 45) 50%,
+                rgb(107, 0, 62) 100%
+              );
+              --wp--preset--gradient--luminous-dusk: linear-gradient(
+                135deg,
+                rgb(255, 203, 112) 0%,
+                rgb(199, 81, 192) 50%,
+                rgb(65, 88, 208) 100%
+              );
+              --wp--preset--gradient--pale-ocean: linear-gradient(
+                135deg,
+                rgb(255, 245, 203) 0%,
+                rgb(182, 227, 212) 50%,
+                rgb(51, 167, 181) 100%
+              );
+              --wp--preset--gradient--electric-grass: linear-gradient(
+                135deg,
+                rgb(202, 248, 128) 0%,
+                rgb(113, 206, 126) 100%
+              );
+              --wp--preset--gradient--midnight: linear-gradient(
+                135deg,
+                rgb(2, 3, 129) 0%,
+                rgb(40, 116, 252) 100%
+              );
+              --wp--preset--font-size--small: 0.8rem;
+              --wp--preset--font-size--medium: 1rem;
+              --wp--preset--font-size--large: 1.25rem;
+              --wp--preset--font-size--x-large: 23px;
+              --wp--preset--font-size--x-small: 0.65rem;
+              --wp--preset--font-size--xx-large: 34px;
+              --wp--preset--font-size--xxx-large: 42px;
+              --wp--preset--font-family--header: Chedros, sans-serif;
+              --wp--preset--font-family--body: Work, sans-serif;
+              --wp--preset--font-family--cheee-choy: Cheee Choy, cursive;
+              --wp--preset--font-family--cheee-small: Cheee Small, cursive;
+              --wp--preset--font-family--cheee-sticky: Cheee Sticky, cursive;
+              --wp--preset--font-family--cheee-tbone: Cheee Tbone, cursive;
+              --wp--preset--spacing--30: clamp(1.5rem, 5vw, 2rem);
+              --wp--preset--spacing--40: clamp(
+                1.8rem,
+                1.8rem + ((1vw - 0.48rem) * 2.885),
+                3rem
+              );
+              --wp--preset--spacing--50: clamp(2.5rem, 8vw, 4.5rem);
+              --wp--preset--spacing--60: clamp(3.75rem, 10vw, 7rem);
+              --wp--preset--spacing--70: clamp(
+                5rem,
+                5.25rem + ((1vw - 0.48rem) * 9.096),
+                8rem
+              );
+              --wp--preset--spacing--80: clamp(7rem, 14vw, 11rem);
+              --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+              --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+              --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+              --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+                6px 6px rgba(0, 0, 0, 1);
+              --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+              --wp--custom--theme: mrbeast-burger;
+              --wp--style--global--content-size: 1279px;
+              --wp--style--global--wide-size: 1480px;
+              --wp--style--block-gap: 1.5rem;
+              line-height: var(--wp--custom--typography--line-height--normal);
+              --wp--style--root--padding-top: 0;
+              --wp--style--root--padding-right: var(--wp--preset--spacing--30);
+              --wp--style--root--padding-bottom: 0;
+              --wp--style--root--padding-left: var(--wp--preset--spacing--30);
+              --admin-bar-offset: 0px;
+              --wp-admin--admin-bar--position-offset: var(
+                --wp-admin--admin-bar--height,
+                0px
+              );
+              font-family: var(--wp--preset--font-family--header) !important;
+              --navigation-layout-justification-setting: flex-start;
+              --navigation-layout-direction: row;
+              --navigation-layout-wrap: wrap;
+              --navigation-layout-justify: flex-start;
+              --navigation-layout-align: center;
+              font-size: var(--wp--preset--font-size--medium) !important;
+              scroll-padding-block-start: 100px;
+              color: var(--wp--preset--color--white) !important;
+              background-color: var(--wp--preset--color--black) !important;
+              margin-bottom: 0;
+              margin-left: 0;
+              margin-top: 0;
+              list-style: none;
+              padding: 0;
+              align-items: normal;
+              display: flex;
+              flex-direction: column;
+              height: 0;
+              left: -1px;
+              opacity: 0;
+              overflow: hidden;
+              position: absolute;
+              top: 100%;
+              transition: opacity 0.1s linear;
+              visibility: hidden;
+              width: 0;
+              z-index: 2;
+              border: 1px solid #00000026;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+#login form input[type="submit"] {
+    background: #fd4839;
+    border: none;
+}
+
+#login form input[type="submit"]:hover,
+#login form input[type="submit"]:active,
+#login form input[type="submit"]:focus {
+    background: #ff6e5a;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+#login form input:focus,
+#login form button:focus {
+    box-shadow: none;
+    border-color: #fd4839;
+}
+
+#login h1 a:focus {
+    color: #fd4839;
+}
+
+#login a:focus {
+    box-shadow: 0 0 0 2px #fd4839;
+}

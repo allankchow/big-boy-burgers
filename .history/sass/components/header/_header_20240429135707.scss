@@ -1,0 +1,104 @@
+.site-header.top-navigation {
+  padding: 12px 0;
+  border-bottom: 1px solid #000000;
+  background: white;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .site-branding {
+      max-width: 75px;
+    }
+
+    .main-navigation {
+      .menu-toggle {
+        margin-left: auto;
+      }
+      .menu-main-navigation-container {
+        .menu.nav-menu {
+          justify-content: flex-end;
+          gap: 32px;
+
+          color: #000;
+          font-family: Montserrat;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 142.857% */
+          text-transform: uppercase;
+
+          li > a {
+            color: inherit;
+            text-decoration: none;
+          }
+
+          li {
+            ul.sub-menu {
+              background: #000;
+              color: white;
+
+              display: flex;
+              flex-direction: column;
+              position: absolute;
+              top: 100%;
+              z-index: 99999;
+              border-radius: 16px;
+
+              height: auto;
+              min-width: 200px;
+              opacity: 1;
+              overflow: visible;
+              visibility: visible;
+              width: auto;
+
+              .menu-item {
+                padding: 14px 24px;
+                text-align: left;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// #menu-item-215 {
+//   a:before {
+//     content: url("/assets/icon-caret-down.php");
+//     display: inline-block;
+//     margin-right: 5px;
+//   }
+// }
+
+// /* Add arrow-up icon */
+// #menu-item-215:hover > a:before {
+//   content: url("/assets/icon-caret-up.php");
+// }
+
+.menu-item-has-children > a {
+  position: relative;
+  padding-right: 20px;
+}
+
+.menu-item-has-children > a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("/wp-content/themes/bigboyburgers-theme/assets/icon-caret-down.php");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+}
+
+.menu-item-has-children:hover > a::after {
+  background-image: url("/wp-content/themes/bigboyburgers-theme/assets/icon-caret-up.php");
+}
+
+// http://bigboyburgers.local/wp-content/themes/bigboyburgers-theme/assets/icon-caret-down.php

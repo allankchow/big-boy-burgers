@@ -1,0 +1,12 @@
+.site-header.top-navigation {
+  background: #000;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .site-branding {
+      max-width: 70.35px;
+    }
+  }
+}

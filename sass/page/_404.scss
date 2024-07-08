@@ -1,0 +1,31 @@
+.error-404 {
+    height: 100vh;
+    margin: 100px auto;
+    padding: 1rem;
+
+    .page-content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: 0;
+
+        button {
+            width: fit-content;
+            margin: auto;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .page-content button {
+            margin: 0;
+        }
+    }
+
+    @media (min-width: 1376px) {
+
+        .page-content {
+            width: 1376px;
+            margin: auto;
+        }
+    }
+}

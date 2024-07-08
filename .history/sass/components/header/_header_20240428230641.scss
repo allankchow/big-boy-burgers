@@ -1,0 +1,23 @@
+.site-header.top-navigation {
+  padding: 12px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .site-branding {
+      max-width: 75px;
+    }
+
+    .main-navigation {
+      .menu-toggle {
+        margin-left: auto;
+      }
+      .menu-main-navigation-container {
+        .menu.nav-menu {
+          justify-content: flex-end;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.founder-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+
+  @media (min-width: 375px) {
+    flex-direction: row;
+  }
+}

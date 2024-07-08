@@ -1,0 +1,136 @@
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.heading-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 32px;
+
+  @media (min-width: 640px) {
+    flex-direction: row;
+  }
+}
+
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 50vh;
+  position: relative;
+  background: radial-gradient(
+      46.35% 46.35% at 50% 50%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    #fff;
+
+  .hero-banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: radial-gradient(
+        circle farthest-corner at 50% 50%,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.6) 100%
+      );
+      z-index: 2;
+    }
+  }
+}
+
+.heading-banner {
+  max-width: 406px;
+}
+
+.cover-image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
+}

@@ -1,0 +1,27 @@
+.woocommerce-notices-wrapper {
+    a {
+        color: inherit;
+        text-decoration: underline;
+    }
+}
+
+.woocommerce-message,
+.woocommerce-error,
+.woocommerce-info {
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.woocommerce-message {
+    background-color: #027d05;
+}
+
+.woocommerce-error {
+    background-color: #991200;
+}
+
+.woocommerce-info {
+    background-color: #0039b5;
+}

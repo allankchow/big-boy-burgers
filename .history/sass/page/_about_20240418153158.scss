@@ -1,0 +1,17 @@
+.founder-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  align-items: center;
+
+  @media (max-width: 375px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.founder_image {
+  width: 100%;
+  aspect-ratio: 0.816;
+  border-radius: 8px;
+  object-fit: cover;
+}
