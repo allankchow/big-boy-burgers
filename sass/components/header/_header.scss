@@ -81,7 +81,7 @@
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background-image: url("/wp-content/themes/bigboyburgers-theme/assets/icon-caret-down.svg");
+    background-image: url("assets/icon-caret-down.svg");
     background-repeat: no-repeat;
     background-size: contain;
     color: #000;
@@ -91,7 +91,7 @@
 
 .menu-item-has-children:hover > a::after {
   @media screen and (min-width: 37.5em) {
-    background-image: url("/wp-content/themes/bigboyburgers-theme/assets/icon-caret-up.svg");
+    background-image: url("assets/icon-caret-up.svg");
   }
 }
 
